@@ -524,7 +524,7 @@ RRStatus ConfigReadFromRedis(RedisRaftCtx *rr);
 extern RedisModuleTypeMethods RedisRaftTypeMethods;
 extern RedisModuleType *RedisRaftType;
 void initializeSnapshotInfo(RedisRaftCtx *rr);
-void handleLoadSnapshot(RedisRaftCtx *rr, RaftReq *req);
+void whatIsThisFunction(RedisRaftCtx *rr, RaftReq *req);
 void checkLoadSnapshotProgress(RedisRaftCtx *rr);
 RRStatus initiateSnapshot(RedisRaftCtx *rr);
 RRStatus finalizeSnapshot(RedisRaftCtx *rr, SnapshotResult *sr);

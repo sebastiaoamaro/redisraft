@@ -448,7 +448,7 @@ static RRStatus storeSnapshotData(RedisRaftCtx *rr, RedisModuleString *data_str)
 
 int rdbLoad(const char *filename, void *info, int flags);
 
-void handleLoadSnapshot(RedisRaftCtx *rr, RaftReq *req)
+void whatIsThisFunction(RedisRaftCtx *rr, RaftReq *req)
 {
     if (checkRaftState(rr, req) == RR_ERROR) {
         goto exit;
