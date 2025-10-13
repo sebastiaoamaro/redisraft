@@ -1767,7 +1767,7 @@ static RaftReqHandler RaftReqHandlers[] = {
     handleRequestVote,      /* RR_REQUESTVOTE */
     handleRedisCommand,     /* RR_REDISOCMMAND */
     handleInfo,             /* RR_INFO */
-    whatIsThisFunction,     /* RR_LOADSNAPSHOT */
+    processSnapshot,     /* RR_LOADSNAPSHOT */
     handleCompact,          /* RR_COMPACT */
     handleClientDisconnect, /* RR_CLIENT_DISCONNECT */
     NULL
